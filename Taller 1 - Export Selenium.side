@@ -1,0 +1,1281 @@
+{
+  "id": "9c45bda4-384e-4e9a-938b-370e7a9d03a4",
+  "version": "2.0",
+  "name": "Taller 1",
+  "url": "https://www.nafin.com/portalnf/content/herramientas-de-negocio/simulador-de-creditos/simulador-de-creditos.do",
+  "tests": [{
+    "id": "e1450fef-14ad-4d9b-9dd4-31fb64ad1b2c",
+    "name": "Caso de prueba 1",
+    "commands": [{
+      "id": "9e5feaa9-ced8-4b96-b88a-837db1947484",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nafin.com/portalnf/content/herramientas-de-negocio/simulador-de-creditos/simulador-de-creditos.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7240b302-a983-49b2-966a-d873b056ba5d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e914caa-0184-47a7-97e2-bdbe7c2df058",
+      "comment": "",
+      "command": "click",
+      "target": "id=dispDate",
+      "targets": [
+        ["id=dispDate", "id"],
+        ["name=dispDate", "name"],
+        ["css=#dispDate", "css:finder"],
+        ["xpath=//input[@id='dispDate']", "xpath:attributes"],
+        ["xpath=//div[@id='fechaDisposicion']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ceedb2e-9622-4560-a962-da862e726c22",
+      "comment": "",
+      "command": "type",
+      "target": "id=dispDate",
+      "targets": [
+        ["id=dispDate", "id"],
+        ["name=dispDate", "name"],
+        ["css=#dispDate", "css:finder"],
+        ["xpath=//input[@id='dispDate']", "xpath:attributes"],
+        ["xpath=//div[@id='fechaDisposicion']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "12/12/2020"
+    }, {
+      "id": "da51649f-eb40-43dd-903b-3a71815202a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3)",
+      "targets": [
+        ["css=.row:nth-child(3)", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0291508a-1742-460e-bd1c-6d3071907345",
+      "comment": "",
+      "command": "click",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0282010-2414-4188-b51c-33bc42367974",
+      "comment": "",
+      "command": "click",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a0800c6-d063-479b-b672-dd90eb212fbb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "480efea2-c0d8-4dc4-a81b-a2f62de549ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "100000"
+    }, {
+      "id": "7939fc88-5817-4d33-8a15-5a21854cadd9",
+      "comment": "",
+      "command": "click",
+      "target": "id=paymentMethod",
+      "targets": [
+        ["id=paymentMethod", "id"],
+        ["name=paymentMethod", "name"],
+        ["css=#paymentMethod", "css:finder"],
+        ["xpath=//select[@id='paymentMethod']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86e787ad-04be-4bd1-a298-b1c76ab316b1",
+      "comment": "",
+      "command": "select",
+      "target": "id=paymentMethod",
+      "targets": [],
+      "value": "label=Mensual"
+    }, {
+      "id": "92ab1098-a0cd-402f-9541-daf94c22ff86",
+      "comment": "",
+      "command": "click",
+      "target": "id=period",
+      "targets": [
+        ["id=period", "id"],
+        ["name=period", "name"],
+        ["css=#period", "css:finder"],
+        ["xpath=//select[@id='period']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "673bde76-6b57-43f9-8ea7-73fc084cc3eb",
+      "comment": "",
+      "command": "select",
+      "target": "id=period",
+      "targets": [],
+      "value": "label=3 años"
+    }, {
+      "id": "c2a9cb75-37f9-4a73-9b5a-c02e36001582",
+      "comment": "",
+      "command": "click",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4387eca-ccb6-47c5-a7bf-36440bde5913",
+      "comment": "",
+      "command": "click",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd7edcaf-3a11-45de-baac-87e937dc3931",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c6eb048-5386-4226-92eb-f22ae9abb5e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "152ec8b0-d378-4c17-b127-bc87f4ec5a1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container",
+      "targets": [
+        ["css=.container", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c360b2e7-c8d8-4897-8aa7-c4d95ddea7d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(7) > .btn",
+      "targets": [
+        ["css=div:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[6]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15a50a36-f909-4777-97fe-7b636ac0089d",
+      "comment": "",
+      "command": "click",
+      "target": "css=strong:nth-child(6)",
+      "targets": [
+        ["css=strong:nth-child(6)", "css:finder"],
+        ["xpath=//strong[6]", "xpath:position"],
+        ["xpath=//strong[contains(.,'$19,571.52 ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2ad676c-f422-464a-a367-9e441dac9f88",
+      "comment": "",
+      "command": "click",
+      "target": "css=strong:nth-child(6)",
+      "targets": [
+        ["css=strong:nth-child(6)", "css:finder"],
+        ["xpath=//strong[6]", "xpath:position"],
+        ["xpath=//strong[contains(.,'$19,571.52 ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8845ea0-46cd-4529-bbf7-9266f1913c13",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=strong:nth-child(6)",
+      "targets": [
+        ["css=strong:nth-child(6)", "css:finder"],
+        ["xpath=//strong[6]", "xpath:position"],
+        ["xpath=//strong[contains(.,'$19,571.52 ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f149c84-fd48-4a7e-b202-92afe38c6aff",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(36) > td:nth-child(7)",
+      "targets": [
+        ["css=tr:nth-child(36) > td:nth-child(7)", "css:finder"],
+        ["xpath=//table[@id='resultadosSimulador']/tbody/tr[36]/td[7]", "xpath:idRelative"],
+        ["xpath=//tr[36]/td[7]", "xpath:position"],
+        ["xpath=//td[contains(.,'$0.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e790bd40-d9bd-424c-9e07-162ddfbe53db",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(36) > td:nth-child(7)",
+      "targets": [
+        ["css=tr:nth-child(36) > td:nth-child(7)", "css:finder"],
+        ["xpath=//table[@id='resultadosSimulador']/tbody/tr[36]/td[7]", "xpath:idRelative"],
+        ["xpath=//tr[36]/td[7]", "xpath:position"],
+        ["xpath=//td[contains(.,'$0.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b03e8a2-02c0-4839-acc4-0fc026c2bf92",
+      "comment": "Validar que el saldo final es de 0",
+      "command": "assertText",
+      "target": "css=tr:nth-child(36) > td:nth-child(7)",
+      "targets": [
+        ["css=tr:nth-child(36) > td:nth-child(7)", "css:finder"],
+        ["xpath=//table[@id='resultadosSimulador']/tbody/tr[36]/td[7]", "xpath:idRelative"],
+        ["xpath=//tr[36]/td[7]", "xpath:position"],
+        ["xpath=//td[contains(.,'$0.00')]", "xpath:innerText"]
+      ],
+      "value": "$0.00"
+    }]
+  }, {
+    "id": "1622affc-6870-4eac-8d71-e0dfdf08d670",
+    "name": "Caso de prueba 2",
+    "commands": [{
+      "id": "62d4e0aa-0686-4757-8501-ee6fef5b1c09",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nafin.com/portalnf/content/herramientas-de-negocio/simulador-de-creditos/simulador-de-creditos.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93dcc6c6-fb96-4925-8c5d-a90e7eb15782",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cd0fc1a-2e90-4d5c-ad0c-02577e56b272",
+      "comment": "",
+      "command": "click",
+      "target": "id=dispDate",
+      "targets": [
+        ["id=dispDate", "id"],
+        ["name=dispDate", "name"],
+        ["css=#dispDate", "css:finder"],
+        ["xpath=//input[@id='dispDate']", "xpath:attributes"],
+        ["xpath=//div[@id='fechaDisposicion']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cd7cd91-06cc-49a8-83d7-12e73a373e4b",
+      "comment": "",
+      "command": "type",
+      "target": "id=dispDate",
+      "targets": [
+        ["id=dispDate", "id"],
+        ["name=dispDate", "name"],
+        ["css=#dispDate", "css:finder"],
+        ["xpath=//input[@id='dispDate']", "xpath:attributes"],
+        ["xpath=//div[@id='fechaDisposicion']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "0/0/0"
+    }, {
+      "id": "7516d6f1-744b-4968-90a7-dbed389d8276",
+      "comment": "",
+      "command": "click",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ae5a25d-2a2f-48d4-835a-f03b03e4e7a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d143b81-f623-49db-bc61-9debe35f302b",
+      "comment": "",
+      "command": "click",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83463495-5452-40f9-b103-c82982b6aba5",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac90d8de-1709-40b4-b26c-823e3f7caffd",
+      "comment": "",
+      "command": "type",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1200000"
+    }, {
+      "id": "439b0369-4081-4d48-9477-7e62789dfa0e",
+      "comment": "",
+      "command": "click",
+      "target": "id=period",
+      "targets": [
+        ["id=period", "id"],
+        ["name=period", "name"],
+        ["css=#period", "css:finder"],
+        ["xpath=//select[@id='period']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1945210-341d-4366-988b-898a4c5dfaf6",
+      "comment": "",
+      "command": "select",
+      "target": "id=period",
+      "targets": [],
+      "value": "label=1 año"
+    }, {
+      "id": "7f84d0dd-459e-4afe-a0d9-11455fd6f60e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(7) > .btn",
+      "targets": [
+        ["css=div:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[6]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63f482bb-3744-4202-9b21-b43a62264ff2",
+      "comment": "",
+      "command": "click",
+      "target": "id=paymentMethod",
+      "targets": [
+        ["id=paymentMethod", "id"],
+        ["name=paymentMethod", "name"],
+        ["css=#paymentMethod", "css:finder"],
+        ["xpath=//select[@id='paymentMethod']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9551bef1-941e-405e-a5f2-c829fde727c4",
+      "comment": "",
+      "command": "select",
+      "target": "id=paymentMethod",
+      "targets": [],
+      "value": "label=Mensual"
+    }, {
+      "id": "70c0ac48-5886-4ce8-aa32-5a75d0726ad0",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(7) > .btn",
+      "targets": [
+        ["css=div:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[6]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05a268cb-bc3b-4b26-9ec5-0a0d8c11f5ba",
+      "comment": "Validar que tras error, un cuadro de alerta se muestra",
+      "command": "assertElementPresent",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[3]/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffb2675a-e694-4b77-a8c9-ab47d1f03f27",
+      "comment": "Validar que tras error la fecha es editable",
+      "command": "assertEditable",
+      "target": "id=dispDate",
+      "targets": [
+        ["id=dispDate", "id"],
+        ["name=dispDate", "name"],
+        ["css=#dispDate", "css:finder"],
+        ["xpath=//input[@id='dispDate']", "xpath:attributes"],
+        ["xpath=//div[@id='fechaDisposicion']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b7c30b1-0661-4031-aea5-705a7d039bb5",
+      "comment": "Validar que tras error el monto es editable",
+      "command": "assertEditable",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cbe0069-d268-44f8-9148-7c000a9885c9",
+      "comment": "Validar que tras error la periodicidad de pago es editable",
+      "command": "assertEditable",
+      "target": "id=paymentMethod",
+      "targets": [
+        ["id=paymentMethod", "id"],
+        ["name=paymentMethod", "name"],
+        ["css=#paymentMethod", "css:finder"],
+        ["xpath=//select[@id='paymentMethod']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4f8fb33-f8d4-46a2-afab-9be7a8cd9184",
+      "comment": "Validar que tras error el plazo es editable",
+      "command": "assertEditable",
+      "target": "id=period",
+      "targets": [
+        ["id=period", "id"],
+        ["name=period", "name"],
+        ["css=#period", "css:finder"],
+        ["xpath=//select[@id='period']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef788298-880a-413c-9d13-7dde545cb80c",
+      "comment": "Validar que tras error el interes es editable",
+      "command": "assertEditable",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f33a5674-9f63-405a-b49f-df0380cae018",
+    "name": "Caso de prueba 3",
+    "commands": [{
+      "id": "722d7848-5f34-4f21-9de6-f51b7ec30313",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nafin.com/portalnf/content/herramientas-de-negocio/simulador-de-creditos/simulador-de-creditos.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79127854-3b64-47f0-9d89-f98add4045ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f4f58ff-07db-40ed-a353-03e64eb76108",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(7) > .btn",
+      "targets": [
+        ["css=div:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[6]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01278015-cd88-439d-99b3-8b3616261da2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=10",
+      "targets": [
+        ["linkText=10", "linkText"],
+        ["css=.ui-state-highlight", "css:finder"],
+        ["xpath=//a[contains(text(),'10')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[2]/td[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[10]", "xpath:href"],
+        ["xpath=//tr[2]/td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'10')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd936fe6-7c6d-4fb6-85e5-a54fcf43c9f1",
+      "comment": "Validar que hay error por falta de fecha",
+      "command": "assertElementPresent",
+      "target": "id=dispDate-error",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be282f5c-9b8a-4315-96d9-f9c620836b4a",
+      "comment": "Validar que se requiere el valor del credito",
+      "command": "assertElementPresent",
+      "target": "id=creditAmount-error",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0be77b7-0f0b-4a60-b6f2-b1a41f58de2b",
+      "comment": "",
+      "command": "click",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37cabe76-75fe-4fb6-9748-2c11e56db696",
+      "comment": "",
+      "command": "click",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3caba0d0-a6f6-4d7f-87d2-b2f3ab59f53c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87f769b0-2aca-4326-b32b-fbdeaf7e0e57",
+      "comment": "",
+      "command": "type",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1200000"
+    }, {
+      "id": "42c0e0d3-1d6d-4961-8458-4a6b0a89e9f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(7) > .btn",
+      "targets": [
+        ["css=div:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[6]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f97f666-3e7f-4762-9099-1b6df65a96ab",
+      "comment": "Validar que hay un cuadro de error por falta de tasa de interes",
+      "command": "assertElementPresent",
+      "target": "css=.alert",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e422235-25af-460c-b38e-3527328902f2",
+      "comment": "Validar que el cuadro con descripcion de intereses no esta presente tras error",
+      "command": "assertElementNotPresent",
+      "target": "css=.well-white",
+      "targets": [
+        ["css=.well-white", "css:finder"],
+        ["xpath=//div[3]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a6c3b1f-407c-493c-b88e-8d283e59ad1d",
+      "comment": "",
+      "command": "click",
+      "target": "id=paymentMethod",
+      "targets": [
+        ["id=paymentMethod", "id"],
+        ["name=paymentMethod", "name"],
+        ["css=#paymentMethod", "css:finder"],
+        ["xpath=//select[@id='paymentMethod']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e57a291-c3ab-4ed8-a2af-48aaa4bd25cc",
+      "comment": "",
+      "command": "select",
+      "target": "id=paymentMethod",
+      "targets": [],
+      "value": "label=Trimestral"
+    }, {
+      "id": "7e8f4d1f-751a-4f84-b5a5-253e5543def5",
+      "comment": "",
+      "command": "click",
+      "target": "id=period",
+      "targets": [
+        ["id=period", "id"],
+        ["name=period", "name"],
+        ["css=#period", "css:finder"],
+        ["xpath=//select[@id='period']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "598e4fd8-e497-47f0-836a-6a6b2d0ec5a0",
+      "comment": "",
+      "command": "select",
+      "target": "id=period",
+      "targets": [],
+      "value": "label=2 años"
+    }, {
+      "id": "fab51ee5-d9d9-48df-83aa-f6898f4a8c93",
+      "comment": "",
+      "command": "click",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da8934d3-c493-4d61-a291-222e9cc20486",
+      "comment": "",
+      "command": "click",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc6862b7-9b69-4f08-8933-af0b6f6b8955",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23c03f47-e746-44c9-adf9-39fc90184aaa",
+      "comment": "",
+      "command": "click",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cb92af3-03b6-4b67-b023-4619d4d85cb0",
+      "comment": "",
+      "command": "type",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "f0b201c0-0691-4d52-a463-95d6229f0167",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "af041d25-da2a-43cd-b198-4745c65beaef",
+      "comment": "Validar que la tabla de descripcion esta presente tras añadir valores validos a todos los campos",
+      "command": "assertElementPresent",
+      "target": "css=th:nth-child(1)",
+      "targets": [
+        ["css=th:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='resultadosSimulador']/thead/tr/th", "xpath:idRelative"],
+        ["xpath=//th", "xpath:position"],
+        ["xpath=//th[contains(.,'Año')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0fd378b0-f801-40cd-b6f1-51b0d9f7d7c4",
+    "name": "Caso de prueba 4",
+    "commands": [{
+      "id": "42feafee-e55f-4692-b654-fee6fd3c9941",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nafin.com/portalnf/content/herramientas-de-negocio/simulador-de-creditos/simulador-de-creditos.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "151c5bd1-14b9-4693-a476-89e938dca477",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdd63edf-9851-4dad-b5a0-ab7c23c5e29f",
+      "comment": "",
+      "command": "click",
+      "target": "id=dispDate",
+      "targets": [
+        ["id=dispDate", "id"],
+        ["name=dispDate", "name"],
+        ["css=#dispDate", "css:finder"],
+        ["xpath=//input[@id='dispDate']", "xpath:attributes"],
+        ["xpath=//div[@id='fechaDisposicion']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00c776ca-8c10-41d5-80c2-7d476cacf45d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdfae04c-bf1b-4fd8-aaf3-0651f1812b8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "asvs"
+    }, {
+      "id": "c1140b89-96b7-49f9-9828-03d0df4ed06e",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=paymentMethod",
+      "targets": [
+        ["id=paymentMethod", "id"],
+        ["name=paymentMethod", "name"],
+        ["css=#paymentMethod", "css:finder"],
+        ["xpath=//select[@id='paymentMethod']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd0fe8c8-2667-485e-acbe-55ad90a564bd",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.form-group:nth-child(4)",
+      "targets": [
+        ["css=.form-group:nth-child(4)", "css:finder"],
+        ["xpath=//form[@id='creditSimulator']/div[3]", "xpath:idRelative"],
+        ["xpath=//form/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "459dc26f-12aa-45d3-aa52-7bf554cb183a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(4)",
+      "targets": [
+        ["css=.form-group:nth-child(4)", "css:finder"],
+        ["xpath=//form[@id='creditSimulator']/div[3]", "xpath:idRelative"],
+        ["xpath=//form/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be5b7df2-2205-4dbd-9b3e-ce8e3fc79b53",
+      "comment": "Validar que el campo de credito debe ser numerico",
+      "command": "assertElementPresent",
+      "target": "id=creditAmount-error",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0002e4b-c1e6-4645-a96c-b9446071614d",
+      "comment": "",
+      "command": "click",
+      "target": "id=paymentMethod",
+      "targets": [
+        ["id=paymentMethod", "id"],
+        ["name=paymentMethod", "name"],
+        ["css=#paymentMethod", "css:finder"],
+        ["xpath=//select[@id='paymentMethod']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a790ec31-953d-41d6-ba38-b20e0adbb965",
+      "comment": "",
+      "command": "click",
+      "target": "id=period",
+      "targets": [
+        ["id=period", "id"],
+        ["name=period", "name"],
+        ["css=#period", "css:finder"],
+        ["xpath=//select[@id='period']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09e452a2-f8ec-4bdb-8e2d-2b6fa963c42d",
+      "comment": "",
+      "command": "select",
+      "target": "id=period",
+      "targets": [],
+      "value": "label=4 años"
+    }, {
+      "id": "a99e7af7-247a-4520-ae2b-525f76144742",
+      "comment": "",
+      "command": "click",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba77367c-63b2-442b-9c0d-260f444d1f0f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e32f1b61-1617-4023-8e2e-5c7dd46fb8de",
+      "comment": "",
+      "command": "type",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "6ea7c990-22f2-49ae-85fa-ca838b1f1092",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2d93f143-2dd2-4692-909c-bb6278de65e9",
+      "comment": "Validar que existe un mensaje de error por la alta tasa de interes",
+      "command": "assertElementPresent",
+      "target": "id=rate-error",
+      "targets": [
+        ["id=rate-error", "id"],
+        ["css=#rate-error", "css:finder"],
+        ["xpath=//span[@id='rate-error']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Por favor, escribe un valor menor o igual a 200.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f95c01a-2cb2-498d-b52f-8d21579872a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9b28c85-eb21-4555-96f3-564aa3cc81ae",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b015da94-48d0-4164-aaf3-e52b071de5ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=creditAmount",
+      "targets": [
+        ["id=creditAmount", "id"],
+        ["name=creditAmount", "name"],
+        ["css=#creditAmount", "css:finder"],
+        ["xpath=//input[@id='creditAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "100000"
+    }, {
+      "id": "6d6da0ab-d4c8-42b0-bbb6-225568891e47",
+      "comment": "",
+      "command": "click",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f538092-0aef-408d-9401-e92242dc2355",
+      "comment": "",
+      "command": "click",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c8d688c-8137-4c1c-a960-d7ef3e6ee8a7",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a29d933d-d176-4f56-b53c-bf7d08bef508",
+      "comment": "",
+      "command": "type",
+      "target": "id=rate",
+      "targets": [
+        ["id=rate", "id"],
+        ["name=rate", "name"],
+        ["css=#rate", "css:finder"],
+        ["xpath=//input[@id='rate']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "bcf84d91-d632-413b-a7a3-263c148281c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(7) > .btn",
+      "targets": [
+        ["css=div:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[6]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9a14180-fd7c-4052-86e5-571c6c0492d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=paymentMethod",
+      "targets": [
+        ["id=paymentMethod", "id"],
+        ["name=paymentMethod", "name"],
+        ["css=#paymentMethod", "css:finder"],
+        ["xpath=//select[@id='paymentMethod']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[3]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9a6e98f-3947-4717-801d-affd49fe3046",
+      "comment": "",
+      "command": "select",
+      "target": "id=paymentMethod",
+      "targets": [],
+      "value": "label=Mensual"
+    }, {
+      "id": "1b16302f-1b0d-4f17-abb8-6731d56b2049",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(7) > .btn",
+      "targets": [
+        ["css=div:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[6]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae2b55cd-5aa4-40e7-95cf-ee8a2d7054bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-calendar",
+      "targets": [
+        ["css=.glyphicon-calendar", "css:finder"],
+        ["xpath=//span[@id='btn']/span", "xpath:idRelative"],
+        ["xpath=//div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f677e66-328b-402e-b1c8-123ac13f1e57",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=10",
+      "targets": [
+        ["linkText=10", "linkText"],
+        ["css=.ui-state-highlight", "css:finder"],
+        ["xpath=//a[contains(text(),'10')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[2]/td[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[10]", "xpath:href"],
+        ["xpath=//tr[2]/td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'10')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1268e9d5-5c5a-42b1-983a-cbcd04f6d6b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(7) > .btn",
+      "targets": [
+        ["css=div:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='creditSimulator']/div[6]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88d2bf89-e393-49e3-95af-99733888d7e5",
+      "comment": "Validar que existe la tabla cuando todos los inputs son correctos",
+      "command": "assertElementPresent",
+      "target": "css=tr:nth-child(48) > td:nth-child(8)",
+      "targets": [
+        ["css=tr:nth-child(48) > td:nth-child(8)", "css:finder"],
+        ["xpath=//table[@id='resultadosSimulador']/tbody/tr[48]/td[8]", "xpath:idRelative"],
+        ["xpath=//tr[48]/td[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea14e1b4-f9da-497b-86dc-cc6184e50682",
+      "comment": "Validar que el numero de meses es 48",
+      "command": "assertText",
+      "target": "css=tr:nth-child(48) > td:nth-child(8)",
+      "targets": [
+        ["css=tr:nth-child(48) > td:nth-child(8)", "css:finder"],
+        ["xpath=//table[@id='resultadosSimulador']/tbody/tr[48]/td[8]", "xpath:idRelative"],
+        ["xpath=//tr[48]/td[8]", "xpath:position"]
+      ],
+      "value": "48"
+    }]
+  }],
+  "suites": [{
+    "id": "e2eccad1-9a9b-4444-931b-fe2d6f79f563",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e1450fef-14ad-4d9b-9dd4-31fb64ad1b2c"]
+  }],
+  "urls": ["https://insolvenciacolombia.com/calculadora-de-credito-amortizacion/", "https://www.bbva.com.co/personas/productos/tarjetas/credito/simulador.html#content-iframe", "https://www.nafin.com/portalnf/content/herramientas-de-negocio/simulador-de-creditos/simulador-de-creditos.do"],
+  "plugins": []
+}
